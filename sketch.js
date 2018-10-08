@@ -34,9 +34,9 @@ ellipseMode(CENTER);
 for (var c = 300; c < width-280; c+=50) {
  for (var d = 140; d < height-100; d+=50) {
    noStroke();
-   ellipse(c-5,d+5,80);
+   ellipse(c-5,d+5,10);
      if (random()<0.3) {
-       fill(255,255,255,40);
+       fill(255,255,255,120);
      } else {
        fill(0,0,0,40);
      }
